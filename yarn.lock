@@ -129,7 +129,7 @@
 
 "@hotwired/turbo-rails@^8.0.9":
   version "8.0.9"
-  resolved "https://registry.npmjs.org/@hotwired/turbo-rails/-/turbo-rails-8.0.9.tgz"
+  resolved "https://registry.yarnpkg.com/@hotwired/turbo-rails/-/turbo-rails-8.0.9.tgz#e18f4035dab26c6c12f17245225e9f3a89fd6216"
   integrity sha512-yJWcKjztrerWYIiinv/febJlVzsOfih2s4eGAoHmg0XvWkGhzWqupknByt18Jo5NfbZgCdeWlUH3q818Ay7FOQ==
   dependencies:
     "@hotwired/turbo" "^8.0.6"
