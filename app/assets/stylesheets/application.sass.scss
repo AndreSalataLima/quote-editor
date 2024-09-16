@@ -1,12 +1,21 @@
 // Entry point for your Sass build
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
+
+// Mixins
+@import "mixins/media";
+
+// Configuration
+@import "../config/variables";
+@import "../config/reset";
+
+// Components
+@import "components/btn";
+@import "components/error_message";
+@import "components/form";
+@import "components/visually_hidden";
+@import "components/quote";
+@import "components/turbo_progress_bar";
+
+
+// Layouts
+@import "layouts/container";
+@import "layouts/header";
